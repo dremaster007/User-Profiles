@@ -1,6 +1,6 @@
 extends Control
 
-### FILE PATHS ARE NOT CASE SENSITIVE
+### FILE PATHS ARE NOT CASE SENSITIVE yes
 
 var user = {"username": "", 
 			"file": "",

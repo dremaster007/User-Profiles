@@ -31,5 +31,4 @@ margin_top = -213.734
 margin_right = 102.0
 margin_bottom = -73.7343
 text = "Save"
-
 [connection signal="pressed" from="CreateUserButton" to="." method="_on_CreateUserButton_pressed"]
