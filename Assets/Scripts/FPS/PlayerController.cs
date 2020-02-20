@@ -70,7 +70,7 @@ public class PlayerController : Controller
                         GameManager.playerIsJumping = true;
                         Vector3 pushDir = new Vector3(-Vector3.Dot(Camera.main.transform.right, Vector3.forward) * Mathf.Max(moveVertical * 0.5f, 0f),
                                                        1f,
-                                                       Vector3.Dot(Camera.main.transform.forward, Vector3.right) * Mathf.Max(moveVertical * 0.5f, 0f));
+                                                       Vector3.Dot(Camera.main.transform.right, Vector3.right) * Mathf.Max(moveVertical * 0.5f, 0f));
 
                         Vector3 pushLat = Vector3.Cross(Camera.main.transform.forward, Vector3.up).normalized * (-moveHorizontal * 0.5f);
 
